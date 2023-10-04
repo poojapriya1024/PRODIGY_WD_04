@@ -47,15 +47,8 @@ async function checkWeather(city_name) {
         weatherDetails.style.display = "block";
         errorMsg.style.display = "none";
     }
-
 }
 
 searchBtn.addEventListener("click", () => {
-
     checkWeather(searchBox.value);
-
 });
-
-
-
-
