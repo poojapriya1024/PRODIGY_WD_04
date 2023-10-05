@@ -16,7 +16,7 @@ const errorMsg = document.querySelector(".error");
 
 async function checkWeather(city_name) {
     
-    const response = await fetch(apiUrl + city_name + `&appdi=${apiKey}`);
+    const response = await fetch(apiUrl + city_name + `&appid=${apiKey}`);
 
     if(response.status == 404)
     {    
